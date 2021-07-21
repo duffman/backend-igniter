@@ -1,0 +1,23 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ign": "node dist/ignite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/websocket": "^1.0.1",
+    "chalk": "^4.1.1",
+    "commander": "^6.2.1",
+    "inquirer": "^8.1.1",
+    "prompt-list": "^3.2.0",
+    "prompts": "^2.4.1",
+    "websocket": "^1.0.33",
+    "yargs": "^16.2.0"
+  }
+}

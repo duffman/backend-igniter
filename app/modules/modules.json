@@ -1,0 +1,14 @@
+{
+	"modules": [
+		{
+			"name": "binance",
+			"description": "Binance API Integration",
+			"path": "binance"
+		},
+		{
+			"name": "binance2",
+			"description": "Binance2 API Integration",
+			"path": "binance"
+		}
+	]
+}

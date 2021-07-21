@@ -1,0 +1,33 @@
+{
+	"name": "SeanCoinery",
+	"version": "102",
+	"modules": "app/modules",
+	"kernel": {
+		"imports": [
+			{
+				"name": "Binance",
+				"className": "BinanceModule",
+				"class": "@modules/binance/binance.module",
+				"bind": "IReviewModule",
+				"serviceIdent": "IReviewModule",
+				"to": "BinanceModule",
+				"scope": "inRequestScope"
+			},
+			{
+				"name": "Auth",
+				"className": "AuthController",
+				"class": "@app-modules/auth/auth.controller",
+				"bind": "IRestApiController",
+				"serviceIdent": "IRestApiController",
+				"to": "AuthController",
+				"scope": "inRequestScope"
+			},
+			{
+				"scope": "inSingletonScope"
+			},
+			{
+				"scope": "inTransientScope"
+			}
+		]
+	}
+}
